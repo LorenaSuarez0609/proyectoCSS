@@ -1,0 +1,51 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+.navbar{
+    width: 100%;
+    background-color:rgb(60, 60, 62);
+    overflow: hidden;
+}
+.navbar a{
+    float:left;
+    padding: 12px;
+    color:white;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color:rgb(7, 82, 74);
+}
+
+.active{
+    background-color:rgb(7, 82, 74);
+}
+
+.responsive{
+    display:none;
+}
+
+span{
+    padding: 0 5px;;
+}
+
+@media (max-width: 680px)
+{
+    .responsive{
+        display: block;
+        float: right;
+        padding: 10px;
+    }
+    a{
+        display:none;
+    }
+
+
+
+}
+.introduccion{
+    text-align: center;
+    margin:0 10px;
+
+}
